@@ -6,6 +6,8 @@
   padding-bottom: 120px;
   background-image: var(--background-image);
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 
   .frontName {
     display: flex;
@@ -23,6 +25,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
+
     .fieldText {
       background-color: var(--color-theme);
       border-radius: 5px;

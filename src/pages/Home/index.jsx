@@ -6,6 +6,7 @@ import { CSS } from '@dnd-kit/utilities';
 
 import { addTodo, deleteAllTodo, deleteTodo, setTheme, setTodo } from '@containers/App/actions';
 import { selectData, selectTheme, selectTodo } from '@containers/App/selectors';
+import { FixedSizeList } from 'react-window';
 
 // icon and css
 import classes from './style.module.scss';
@@ -15,6 +16,7 @@ import {
   FormControl,
   Grid,
   IconButton,
+  InputAdornment,
   List,
   ListItem,
   ListItemButton,
@@ -31,8 +33,9 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import NightsStayIcon from '@mui/icons-material/NightsStay';
 import { useMemo, useState } from 'react';
 import { DndContext, closestCorners } from '@dnd-kit/core';
-import { SortableContext, useSortable, verticalListSortingStrategy } from '@dnd-kit/sortable';
+import { SortableContext, arrayMove, useSortable, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import ListTodo from './ListTodo';
+import { CheckBox } from '@mui/icons-material';
 
 const iconStyle = {
   width: '1.5rem',
@@ -85,6 +88,22 @@ const Home = ({ todo, theme }) => {
     });
   }
 
+  const [task, setTask] = useState(visibleTodos);
+  const getTaskPos = (id) => task.findIndex((task) => task.id === id);
+
+  const handleDragEnd = (e) => {
+    const { active, over } = e;
+
+    if (active.id === over.id) return;
+
+    setTask((task) => {
+      const originalPos = getTaskPos(active.id);
+      const newPos = getTaskPos(over.id);
+
+      return arrayMove(task, originalPos, newPos);
+    });
+  };
+
   return (
     <div className={classes.wrapper}>
       <div className={classes.frontName}>
@@ -100,57 +119,56 @@ const Home = ({ todo, theme }) => {
         </Stack>
       </div>
       <div className={classes.inputButton}>
-        <Grid container alignItems="center" className={classes.fieldText}>
-          <Grid item sx={{ marginLeft: '10px' }}>
-            <FormControl>
-              <Checkbox
-                icon={<RadioButtonUncheckedIcon />}
-                checkedIcon={<CheckedIcons />}
-                edge="start"
-                tabIndex={-1}
-                // checked={status}
-                // onClick={handleCheckboxClick}
-                disableRipple
-              />
-            </FormControl>
-          </Grid>
-          <Grid item>
-            <TextField
-              id="myInput"
-              variant="outlined"
-              onChange={handleAddTodo}
-              onKeyDown={handleOnEnter}
-              sx={{
-                borderRadius: '5px',
-                width: '450px',
-                '& .MuiOutlinedInput-notchedOutline': {
-                  border: 'none', // Removes border
-                },
-                '&:hover .MuiOutlinedInput-notchedOutline': {
-                  border: 'none', // Removes border on hover
-                },
-                '& .MuiOutlinedInput-input': {
-                  padding: '10px', // Example: adding padding to input area
-                },
-              }}
-              value={values}
-              focused={false}
-            />
-          </Grid>
-        </Grid>
+        <div className={classes.fieldText}>
+          <TextField
+            id="myInput"
+            variant="outlined"
+            onChange={handleAddTodo}
+            onKeyDown={handleOnEnter}
+            sx={{
+              borderRadius: '5px',
+              width: '450px',
+              '& .MuiOutlinedInput-notchedOutline': {
+                border: 'none',
+              },
+              '&:hover .MuiOutlinedInput-notchedOutline': {
+                border: 'none',
+              },
+              '& .MuiOutlinedInput-input': {
+                padding: '10px',
+              },
+            }}
+            inputProps={{
+              maxLength: 40,
+              startadornment: (
+                <InputAdornment position="start">
+                  <RadioButtonUncheckedIcon />
+                </InputAdornment>
+              ),
+            }}
+            value={values}
+            focused={false}
+          />
+        </div>
       </div>
-      <DndContext collisionDetection={closestCorners}>
+      <DndContext collisionDetection={closestCorners} onDragEnd={handleDragEnd}>
         <List
           sx={{ maxWidth: 500, bgcolor: 'background.paper', borderRadius: '5px' }}
           className={classes.itemList}
           hidden={listOn}
         >
           <SortableContext items={visibleTodos} strategy={verticalListSortingStrategy}>
-            {visibleTodos.map((list, i) => (
-              <ListItem key={list?.id}>
-                <ListTodo status={list?.status} text={list?.todoName} id={list?.id} />
-              </ListItem>
-            ))}
+            <FixedSizeList height={200} width={500} itemSize={46} itemCount={visibleTodos.length} overscanCount={5}>
+              {({ index, style }) => (
+                <ListItem key={visibleTodos[index]?.id} style={style}>
+                  <ListTodo
+                    status={visibleTodos[index]?.status}
+                    text={visibleTodos[index]?.todoName}
+                    id={task[index]?.id}
+                  />
+                </ListItem>
+              )}
+            </FixedSizeList>
           </SortableContext>
         </List>
       </DndContext>

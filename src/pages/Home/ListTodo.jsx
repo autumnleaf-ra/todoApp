@@ -15,11 +15,6 @@ const ListTodo = ({ status, text, id }) => {
 
   // DnD Kit hook for sortable list item
   const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id });
-  const sensors = useSensor(PointerSensor, {
-    activationConstraint: {
-      delay: 5,
-    },
-  });
 
   const style = {
     transition,
@@ -47,7 +42,10 @@ const ListTodo = ({ status, text, id }) => {
           disableRipple
         />
       </ListItemIcon>
-      <ListItemText primary={text} sx={{ textDecoration: status ? 'line-through' : 'none' }} />
+      <ListItemText
+        primary={text}
+        sx={{ textDecoration: status ? 'line-through' : 'none', color: status ? 'gray' : '' }}
+      />
       <Button
         onClick={() => handleDelete(id)}
         sx={{
@@ -64,7 +62,7 @@ const ListTodo = ({ status, text, id }) => {
 
 ListTodo.propTypes = {
   status: PropTypes.bool,
-  text: PropTypes.array,
+  text: PropTypes.string,
   id: PropTypes.string,
 };
 
