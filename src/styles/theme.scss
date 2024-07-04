@@ -1,0 +1,25 @@
+@import './media-mixins.scss';
+
+@mixin global-theme {
+  --color-button: #ed0226;
+}
+
+@mixin light-theme {
+  --color-text: #001a41;
+  --color-logo: #f4eee0;
+  --color-background: linear-gradient(-45deg, #edf1f4, #c3cbdc, #dee4ea, #f9fcff);
+  --color-background-2: #f5f7fa;
+  --color-theme: #fff;
+  --background-image: url('/src/assets/bg-desktop-light.jpg');
+  --color-text-gradient: -webkit-linear-gradient(45deg, #c20ea1, #dd2d7f, #ee4c5e, #f46d41);
+}
+
+@mixin dark-theme {
+  --color-text: #f4eee0;
+  --color-logo: #f4eee0;
+  --color-background: linear-gradient(-45deg, #121212, #1a1a1a, #1a1625, #2f2b3a);
+  --color-theme: hsl(230, 26%, 19%);
+  --color-background-2: #46424f;
+  --background-image: url('/src/assets/bg-desktop-dark.jpg');
+  --color-text-gradient: -webkit-linear-gradient(45deg, #f2efdc, #f5f5f5);
+}

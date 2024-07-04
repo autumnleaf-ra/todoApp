@@ -1,0 +1,61 @@
+@import '@styles/base';
+
+.wrapper {
+  padding: 2rem;
+  margin: 0;
+  padding-bottom: 120px;
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+
+  .frontName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .frontName h1 {
+    color: var(--color-logo);
+  }
+
+  .inputButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    .fieldText {
+      background-color: var(--color-theme);
+      width: 500px;
+    }
+  }
+
+  .itemList {
+    margin: auto;
+    align-items: center;
+    background-color: var(--color-theme);
+  }
+
+  .filterButton {
+    @include directionX;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-theme);
+    width: 500px;
+    margin: auto;
+    color: var(--text-color);
+
+    .textItem {
+      margin-left: 10px;
+      color: gray;
+    }
+  }
+
+  .filterButton BUTTON {
+    color: var(--text-color);
+    font-size: small;
+  }
+
+  .filterButton BUTTON:focus {
+    color: hsl(220, 98%, 61%);
+  }
+}

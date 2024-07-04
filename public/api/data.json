@@ -1,0 +1,1469 @@
+{
+  "message": "Success!",
+  "data": [
+    {
+      "title": "Blogify",
+      "url": "https://blogify.phincon.cloud",
+      "author": "Redwan Sarif",
+      "nickname": "Redwan",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://blogify.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://gitlab.com/Wansrif/blog-frontend"
+        },
+        {
+          "icon": "GitHubIcon",
+          "url": "https://gitlab.com/Wansrif/blog-backend"
+        }
+      ]
+    },
+    {
+      "title": "MI Care",
+      "url": "https://micare.phincon.cloud",
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://micare.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://gitlab.com/azmizein/final"
+        }
+      ]
+    },
+    {
+      "title": "Foodery",
+      "url": "https://foodery.phincon.cloud",
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://foodery.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://github.com/brianjayaandhika/phincon-final-frontend"
+        },
+        {
+          "icon": "GitHubIcon",
+          "url": "https://github.com/brianjayaandhika/phincon-final-backend"
+        }
+      ]
+    },
+    {
+      "title": "EduConnnect",
+      "url": "https://educonnect.phincon.cloud",
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://educonnect.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://github.com/Farizirfani/frontend-final_project"
+        },
+        {
+          "icon": "GitHubIcon",
+          "url": "https://github.com/Farizirfani/backend-final_project"
+        }
+      ]
+    },
+    {
+      "title": "WShop",
+      "url": "https://wshop.phincon.cloud",
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://wshop.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://gitlab.com/shafwarijal/final_project_topup"
+        }
+      ]
+    },
+    {
+      "title": "Premier League",
+      "url": "https://premierleague.phincon.cloud",
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://premierleague.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://github.com/derishardiansyah/PremierLeague"
+        }
+      ]
+    },
+    {
+      "title": "Social Vibe",
+      "url": "https://socialvibe.phincon.cloud",
+      "author": "Nur Hanna",
+      "nickname": "Hanna",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://socialvibe.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://github.com/nurhanna01/Social-Media"
+        },
+        {
+          "icon": "GitHubIcon",
+          "url": "https://github.com/nurhanna01/Social-Media-Backend"
+        }
+      ]
+    },
+    {
+      "title": "Logi Time",
+      "url": "https://logitime.phincon.cloud",
+      "author": "Dwita Permata",
+      "nickname": "Dwita",
+      "type": "final_project",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://logitime.phincon.cloud"
+        },
+        {
+          "icon": "GitHubIcon",
+          "color": "secondary",
+          "url": "https://github.com/dwitap/attendance-frontend"
+        },
+        {
+          "icon": "GitHubIcon",
+          "url": "https://github.com/dwitap/attendance-backend"
+        }
+      ]
+    },
+    {
+      "title": "Multi Step Form",
+      "url": "https://form1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://form1.phincon.cloud"
+        }
+      ],
+      "author": ["Muhammad Brianjaya Andhika", "Shafwaturrijal", "Annisa Dwi Febryanti"],
+      "nickname": ["Brian", "Shaf", "Feby"]
+    },
+    {
+      "title": "Multi Step Form",
+      "url": "https://form2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://form2.phincon.cloud"
+        }
+      ],
+      "author": ["Redwan Sarif", "M. Fariz Irfani", "Nur Hanna"],
+      "nickname": ["Redwan", "Fariz", "Hanna"]
+    },
+    {
+      "title": "Multi Step Form",
+      "url": "https://form3.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://form3.phincon.cloud"
+        }
+      ],
+      "author": ["Muhammad Azmi Zein", "Deris Hardiansyah Ismail", "Dwita Permata"],
+      "nickname": ["Azmi", "Deris", "Dwita"]
+    },
+    {
+      "title": "Short Url",
+      "url": "https://azmi-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://brian-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://deris-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://dwita-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://fariz-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-shortly.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://feby-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://hana-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://redwan-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Short Url",
+      "url": "https://shaf-shortly.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-shortly.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://arif-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-advice.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://azmi-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-advice.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://brian-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-advice.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://deris-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-advice.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://dwita-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-advice.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://fariz-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-advice.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://feby-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-advice.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://hana-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-advice.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://reandy-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-advice.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://redwan-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-advice.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Random Advice",
+      "url": "https://shaf-advice.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-advice.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://arif-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-todo.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://azmi-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-todo.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://brian-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-todo.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://deris-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-todo.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://dwita-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-todo.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://fariz-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-todo.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://feby-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-todo.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://hana-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-todo.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://reandy-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-todo.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://redwan-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-todo.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "To Do List",
+      "url": "https://shaf-todo.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-todo.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Country List",
+      "url": "https://arif-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-country.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "Country List",
+      "url": "https://azmi-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-country.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Country List",
+      "url": "https://brian-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-country.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Country List",
+      "url": "https://deris-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-country.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Country List",
+      "url": "https://dwita-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-country.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Country List",
+      "url": "https://fariz-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-country.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Country List",
+      "url": "https://feby-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-country.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Country List",
+      "url": "https://hana-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-country.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Country List",
+      "url": "https://reandy-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-country.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Country List",
+      "url": "https://redwan-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-country.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Country List",
+      "url": "https://shaf-country.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-country.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://arif-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://azmi-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://brian-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://deris-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://dwita-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://fariz-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-countdown.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://feby-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://hana-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://reandy-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://redwan-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Countdown",
+      "url": "https://shaf-countdown.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-countdown.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://arif-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://azmi-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://brian-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://deris-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://dwita-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://fariz-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-calculator.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://feby-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://hana-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://reandy-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://redwan-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Calculator",
+      "url": "https://shaf-calculator.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-calculator.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://arif-login.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-login.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://azmi-login.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-login.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://brian-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-login1.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://brian-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-login2.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://brian-login3.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-login3.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://deris-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-login1.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://deris-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-login2.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://dwita-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-login1.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://dwita-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-login2.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://dwita-login3.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-login3.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://fariz-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-login1.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://fariz-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-login2.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://fariz-login3.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-login3.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://feby-login.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-login.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://hana-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-login1.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://hana-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-login2.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://reandy-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-login1.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://reandy-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-login2.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://redwan-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-login1.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://redwan-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-login2.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://shaf-login1.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-login1.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Login Form",
+      "url": "https://shaf-login2.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-login2.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://arif-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://arif-game.phincon.cloud"
+        }
+      ],
+      "author": "Arief Dwi Rachmadian",
+      "nickname": "Arif"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://azmi-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://azmi-game.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Azmi Zein",
+      "nickname": "Azmi"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://brian-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://brian-game.phincon.cloud"
+        }
+      ],
+      "author": "Muhammad Brianjaya Andhika",
+      "nickname": "Brian"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://deris-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://deris-game.phincon.cloud"
+        }
+      ],
+      "author": "Deris Hardiansyah Ismail",
+      "nickname": "Deris"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://dwita-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://dwita-game.phincon.cloud"
+        }
+      ],
+      "author": "Dwita Permata",
+      "nickname": "Dwita"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://fariz-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://fariz-game.phincon.cloud"
+        }
+      ],
+      "author": "M. Fariz Irfani",
+      "nickname": "Fariz"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://feby-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://feby-game.phincon.cloud"
+        }
+      ],
+      "author": "Annisa Dwi Febryanti",
+      "nickname": "Feby"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://hana-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://hana-game.phincon.cloud"
+        }
+      ],
+      "author": "Nur Hanna",
+      "nickname": "Hanna"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://reandy-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://reandy-game.phincon.cloud"
+        }
+      ],
+      "author": "Reandy Ferdinanto",
+      "nickname": "Reandy"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://redwan-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://redwan-game.phincon.cloud"
+        }
+      ],
+      "author": "Redwan Sarif",
+      "nickname": "Redwan"
+    },
+    {
+      "title": "Landing Game",
+      "url": "https://shaf-game.phincon.cloud",
+      "type": "assignment",
+      "link": [
+        {
+          "icon": "LinkIcon",
+          "url": "https://shaf-game.phincon.cloud"
+        }
+      ],
+      "author": "Shafwaturrijal",
+      "nickname": "Shaf"
+    }
+  ]
+}
