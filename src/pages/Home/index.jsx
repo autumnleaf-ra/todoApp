@@ -52,13 +52,17 @@ const Home = ({ todo, theme }) => {
 
   const handleOnEnter = (e) => {
     if (e.key === 'Enter') {
-      dispatch(
-        addTodo({
-          id: uuidv4(),
-          todoName: values,
-          status: false,
-        })
-      );
+      if (values.length === 0) {
+        return false;
+      } else {
+        dispatch(
+          addTodo({
+            id: uuidv4(),
+            todoName: values,
+            status: false,
+          })
+        );
+      }
 
       setValues('');
     }
