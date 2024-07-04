@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Button, Checkbox, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import CheckedIcons from './CheckedIcons';
@@ -59,6 +60,12 @@ const ListTodo = ({ status, text, id }) => {
       </Button>
     </ListItemButton>
   );
+};
+
+ListTodo.propTypes = {
+  status: PropTypes.bool,
+  text: PropTypes.array,
+  id: PropTypes.string,
 };
 
 export default ListTodo;

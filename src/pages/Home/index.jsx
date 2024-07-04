@@ -12,6 +12,8 @@ import classes from './style.module.scss';
 import {
   Button,
   Checkbox,
+  FormControl,
+  Grid,
   IconButton,
   List,
   ListItem,
@@ -98,15 +100,44 @@ const Home = ({ todo, theme }) => {
         </Stack>
       </div>
       <div className={classes.inputButton}>
-        <TextField
-          id="myInput"
-          variant="outlined"
-          className={classes.fieldText}
-          onChange={handleAddTodo}
-          onKeyDown={handleOnEnter}
-          sx={{ borderRadius: '5px' }}
-          value={values}
-        />
+        <Grid container alignItems="center" className={classes.fieldText}>
+          <Grid item sx={{ marginLeft: '10px' }}>
+            <FormControl>
+              <Checkbox
+                icon={<RadioButtonUncheckedIcon />}
+                checkedIcon={<CheckedIcons />}
+                edge="start"
+                tabIndex={-1}
+                // checked={status}
+                // onClick={handleCheckboxClick}
+                disableRipple
+              />
+            </FormControl>
+          </Grid>
+          <Grid item>
+            <TextField
+              id="myInput"
+              variant="outlined"
+              onChange={handleAddTodo}
+              onKeyDown={handleOnEnter}
+              sx={{
+                borderRadius: '5px',
+                width: '450px',
+                '& .MuiOutlinedInput-notchedOutline': {
+                  border: 'none', // Removes border
+                },
+                '&:hover .MuiOutlinedInput-notchedOutline': {
+                  border: 'none', // Removes border on hover
+                },
+                '& .MuiOutlinedInput-input': {
+                  padding: '10px', // Example: adding padding to input area
+                },
+              }}
+              value={values}
+              focused={false}
+            />
+          </Grid>
+        </Grid>
       </div>
       <DndContext collisionDetection={closestCorners}>
         <List
