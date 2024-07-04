@@ -164,7 +164,7 @@ const Home = ({ todo, theme }) => {
                   <ListTodo
                     status={visibleTodos[index]?.status}
                     text={visibleTodos[index]?.todoName}
-                    id={task[index]?.id}
+                    id={visibleTodos[index]?.id}
                   />
                 </ListItem>
               )}
