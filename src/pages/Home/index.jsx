@@ -12,7 +12,6 @@ import { FixedSizeList } from 'react-window';
 import classes from './style.module.scss';
 import {
   Button,
-  Checkbox,
   FormControl,
   Grid,
   IconButton,
@@ -25,6 +24,7 @@ import {
   Stack,
   TextField,
   Typography,
+  Checkbox,
 } from '@mui/material';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import CheckedIcons from './CheckedIcons';
@@ -35,7 +35,6 @@ import { useMemo, useState } from 'react';
 import { DndContext, closestCorners } from '@dnd-kit/core';
 import { SortableContext, arrayMove, useSortable, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import ListTodo from './ListTodo';
-import { CheckBox } from '@mui/icons-material';
 
 const iconStyle = {
   width: '1.5rem',
@@ -119,7 +118,7 @@ const Home = ({ todo, theme }) => {
         </Stack>
       </div>
       <div className={classes.inputButton}>
-        <div className={classes.fieldText}>
+        {/* <div className={classes.fieldText}>
           <TextField
             id="myInput"
             variant="outlined"
@@ -149,7 +148,32 @@ const Home = ({ todo, theme }) => {
             value={values}
             focused={false}
           />
-        </div>
+        </div> */}
+        <List>
+          <ListItem alignItems="center" className={classes.listItemInput}>
+            <Checkbox
+              icon={<RadioButtonUncheckedIcon />}
+              checkedIcon={<CheckedIcons />}
+              edge="start"
+              tabIndex={-1}
+              disableRipple
+            />
+            <TextField
+              sx={{
+                width: '500px',
+                '& .MuiOutlinedInput-notchedOutline': {
+                  border: 'none',
+                },
+                '&:hover .MuiOutlinedInput-notchedOutline': {
+                  border: 'none',
+                },
+                '& .MuiOutlinedInput-input': {
+                  padding: '10px',
+                },
+              }}
+            />
+          </ListItem>
+        </List>
       </div>
       <DndContext collisionDetection={closestCorners} onDragEnd={handleDragEnd}>
         <List
