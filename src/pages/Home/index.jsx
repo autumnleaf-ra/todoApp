@@ -118,37 +118,6 @@ const Home = ({ todo, theme }) => {
         </Stack>
       </div>
       <div className={classes.inputButton}>
-        {/* <div className={classes.fieldText}>
-          <TextField
-            id="myInput"
-            variant="outlined"
-            onChange={handleAddTodo}
-            onKeyDown={handleOnEnter}
-            sx={{
-              borderRadius: '5px',
-              width: '450px',
-              '& .MuiOutlinedInput-notchedOutline': {
-                border: 'none',
-              },
-              '&:hover .MuiOutlinedInput-notchedOutline': {
-                border: 'none',
-              },
-              '& .MuiOutlinedInput-input': {
-                padding: '10px',
-              },
-            }}
-            inputProps={{
-              maxLength: 40,
-              startadornment: (
-                <InputAdornment position="start">
-                  <RadioButtonUncheckedIcon />
-                </InputAdornment>
-              ),
-            }}
-            value={values}
-            focused={false}
-          />
-        </div> */}
         <List>
           <ListItem alignItems="center" className={classes.listItemInput}>
             <Checkbox
