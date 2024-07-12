@@ -140,6 +140,8 @@ const Home = ({ todo, theme }) => {
                   padding: '10px',
                 },
               }}
+              onChange={handleAddTodo}
+              onKeyDown={handleOnEnter}
             />
           </ListItem>
         </List>
